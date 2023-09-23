@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="stepdefinations.InadevStepsDef">
+        <methods>
+          <include name="i_am_on_http_localhost_for_the_first_time"/>
+          <include name="i_click_on_add_task_button"/>
+        </methods>
+      </class> <!-- stepdefinations.InadevStepsDef -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
